@@ -1,0 +1,25 @@
+{
+    "name": "lixiphp/agentdetect",
+    "type": "library",
+    "description": "PHP Visitor Agent Detect to get visitor system platform, mobile device, browser and robots.",
+    "keywords": ["agent detect", "agent detector", "php agent detect", "detect system platform", "browser mobile devices"],
+    "homepage": "https://github.com/lixiphp/agentdetect",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Li Xi",
+            "email": "lixiphp@gmail.com",
+            "homepage": "http://blog.lixiphp.com",
+            "role": "CTO"
+        }
+    ],
+    "require": {
+        "php": ">=5.0.0"
+    },
+    "autoload": {
+        "classmap": ["AgentDetect.php"],
+        "psr-0": {
+            "Lixiphp": ""
+        }
+    }
+}
